@@ -5,4 +5,4 @@
 
 .PHONY: clean
 clean:
-	rm -rf *~ Rubrics/*.*~ Prompts/*.*~ Graders/*.*~
+	rm -rf *~ Rubrics/TeX/*~ Prompts/*.*~ Graders/*.*~
