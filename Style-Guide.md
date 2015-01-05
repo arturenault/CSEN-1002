@@ -178,3 +178,119 @@ within single lines of code. Similarly, you should include one line of
 whitespace between logical blocks of code in functions, and two whitespaces
 between different functions.
 
+##4. Docstring Comments##
+Docstring comments are single or multi-line comments added after the function
+definition. These comments are meant to concisely describe to the user what the
+function does. These comments are written using Python's multi-line comments
+(triple quotation marks, such as ```''' blah blah blah'''``` or ```""" Sample
+text"""```)
+
+###For This Class###
+You are expected to include docstring comments for **EVERY** function you
+write. This includes both functions given to you in the assignment, along with
+helper functions you write on your own. Please refer back to Sample 2 for an
+example of the sort of description the TA's will be looking for.
+
+##5. Line Length##
+Most IDE's (Integrated Devlopment Environment) by default open with windows
+that are 79 characters wide. To prevent users from having to scroll to the
+right while reading code, a programmer should limit each line to 79 characters
+or less. If a line is over 79 characters, it can often be broken into multiple
+short lines that provide the same functionality.
+
+If a line HAS to be over 79 characters long, it can be extended onto multiple
+lines by adding a "\" character as the last character or each line.
+
+###For This Class###
+Your code will be expected to be less than 79 characters long. You can test the
+length of your code by opening a text editor and resizing your window to 80
+characters. If the text wraps around the window, your line is too long.
+
+##6. Comments##
+Comments are added to explain the functionality of a single line or a block of
+code. As such, comments should be used to explain logical blocks of code, so
+that the users can understand said block by just reading the comment. **BE
+CAREFUL**, a common beginner mistake is to overcomment code (i.e. explain every
+line of code), this actually makes code _more difficult_ to understand, as a
+programmer may change code and forget to change her comments. Thus, use
+comments to help explain code that seems tricky to understand.
+
+###For This Class###
+You are expected to put comments in every program you write. This does not mean
+you should have more comments than acutal code. Use comments to explain any
+logic you believe will be difficult to explain through the code itself. Also, a
+la Sample 2, place comments above blocks to explain what the blocks are doing.
+
+##7. Indentation##
+Python uses indentation to recognize different scopes as well as to identify
+code in loops or conditional statements. Python recognizes either tabs or any
+multiple of 4 spaces as a single indentation block. The entire file must use a
+uniform identation size, otherwise an indentation error will occur. Similarly,
+a programmer cannot mix tabs and spaces within the same program as that will
+create an indentation error as well!
+
+By convention, most programmers use 4 spaces for a single indentation, as
+different text editors read the tab symbol as different lengths (e.g. 4 spaces
+to 8 spaces). 4 spaces allows code to maintain readability and proper
+indentation, while keeping lines short.
+
+###For This Class###
+You are expected to maintain proper indentation throughout your programs. That
+means you must have 4 spaces per indentation (either spaces or tab), and no
+identation errors.
+
+##8. Variable And Function Naming##
+Variables should be named to make it clear to readers what the function of the
+variable is. For example, in Sample 2, naming the numbers `larger`, `smaller`,
+and `remainder` makes it easy to identify what each variable does. Similarly,
+naming the function `euclid` makes it clear that the funciton runs the
+Euclidean algorithm on the two number provided. Having clear variable and
+function names allows the programmer the luxury of not having to use comments
+to document her code, making it much more approachable for other programmers.
+
+###For This Class###
+You are expected to use clear variable names on **EVERY** function and variable
+other than counters or indexes. Please refer to Sample 2 for examples.
+
+##9. Global Variables##
+Global variables are variable that can be accessed and changed by any function
+in the file. Global variables are usually defined at the top of the file and 
+are used to store constants or numbers that have to be frequently accessed but 
+never changed. Writing global variables is expensive to the system running the 
+program and should be avoided as often as possible.
+
+###For This Class###
+Unless otherwise stated, you are expected to not use global variables in your
+programs.
+
+##10. File Structure##
+The structure of a file can make a big different on how easy it is to 
+understand the code within a file. The structure of a file is a combination of 
+the other sytle guidelines seen so far.
+
+####Example###
+```python
+##########
+# Header
+##########
+
+import statements
+
+def function_1(a, b):
+    ''' docstring comments'''
+
+    # Comment over code block 1
+    ... Code block 1 ...
+
+    # Comment over code block 2
+    ... Code block 2 ...
+
+def function_2():
+    """ docstring comments"""
+    ... Code here ...
+
+```
+
+###For This Class###
+You will be expected to maintain file structure similar to the example given
+above.
