@@ -249,8 +249,8 @@ function names allows the programmer the luxury of not having to use comments
 to document her code, making it much more approachable for other programmers.
 
 ###For This Class###
-You are expected to use clear variable names on **EVERY** function and variable
-other than counters or indexes. Please refer to Sample 2 for examples.
+You are expected to use clear names for **EACH** function and variable
+other than counters or indices. Please refer to Sample 2 for examples.
 
 ##9. Global Variables##
 Global variables are variable that can be accessed and changed by any function
