@@ -183,7 +183,7 @@ Docstring comments are single or multi-line comments added after the function
 definition. These comments are meant to concisely describe to the user what the
 function does. These comments are written using Python's multi-line comments
 (triple quotation marks, such as ```''' blah blah blah'''``` or ```""" Sample
-text"""```)
+text"""```).
 
 ###For This Class###
 You are expected to include docstring comments for **EVERY** function you
